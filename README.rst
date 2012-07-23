@@ -26,11 +26,14 @@ With Javascript
 With CSS
     .. image:: http://farm8.staticflickr.com/7129/7587282200_0aaac23ca7_b.jpg
 
+With LESS
+    .. image:: http://farm9.staticflickr.com/8161/7632433416_5d85c53afb_z.jpg
+
 
 Installing
 ----------------------------------
 
-1. With pathogen
+1. Pathogen
 **********************************
 
 Checkout of the project::
@@ -38,7 +41,7 @@ Checkout of the project::
     $ git clone git://github.com/gilsondev/lizard.git bundles/lizard-colorscheme
 
 
-1. With vundle
+1. Vundle
 **********************************
 
 Enter in your bundles::
