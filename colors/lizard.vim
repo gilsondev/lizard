@@ -30,9 +30,9 @@ hi LineNr 		guifg=#857b6f guibg=#242424 gui=none
 hi StatusLine 	guifg=#f6f3e8 guibg=#444444 gui=italic
 hi StatusLineNC guifg=#857b6f guibg=#444444 gui=none
 hi VertSplit 	guifg=#444444 guibg=#444444 gui=none
-hi Folded 		guibg=#384048 guifg=#a0a8b0 gui=none
+hi Folded 		guibg=#2B2B2B guifg=#a0a8b0 gui=none
 hi Title		guifg=#f6f3e8 guibg=NONE	gui=bold
-hi Visual		guifg=#f6f3e8 guibg=#444444 gui=none
+hi Visual		guifg=#a0a8b0 guibg=#303030 gui=none
 hi SpecialKey	guifg=#808080 guibg=#343434 gui=none
 
 " TODO:
@@ -52,3 +52,4 @@ hi Special		guifg=#e7f6da gui=none
 
 " Python syntax
 hi link pythonCoding    Comment
+hi link pythonNumber    Number
