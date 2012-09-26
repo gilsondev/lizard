@@ -46,7 +46,7 @@ hi Type                 guifg=#CAE682 gui=NONE
 hi Statement            guifg=#8AC6F2 gui=NONE
 hi Keyword              guifg=#8AC6F2 gui=NONE
 hi PreProc              guifg=#E5786D gui=NONE
-hi Number               guifg=#E5786D gui=NONE
+hi Number               guifg=#FFAFAF gui=NONE
 hi Special              guifg=#E7F6DA gui=NONE
 
 " Python syntax
