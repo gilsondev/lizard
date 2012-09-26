@@ -48,7 +48,8 @@ hi Keyword              guifg=#8AC6F2 gui=NONE
 hi PreProc              guifg=#E5786D gui=NONE
 hi Number               guifg=#FFAFAF gui=NONE
 hi Special              guifg=#E7F6DA gui=NONE
+hi Boolean              guifg=#FFAFAF gui=NONE
 
 " Python syntax
-hi link pythonCoding    Comment
-hi link pythonNumber    Number
+hi pythonCoding         guifg=#99968B gui=ITALIC
+hi pythonNumber         guifg=#FFAFAF gui=NONE
