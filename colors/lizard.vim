@@ -1,5 +1,5 @@
-" Maintainer:   Lars H. Nielsen (dengmao@gmail.com)
-" Last Change:  January 22 2007
+" Maintainer:   Gilson Filho (contato@gilsondev.com)
+" Last Change:  September 26 2012
 
 set background=dark
 
