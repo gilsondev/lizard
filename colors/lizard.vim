@@ -14,40 +14,40 @@ let colors_name = "lizard"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-  hi CursorLine         guibg=#2d2d2d
-  hi CursorColumn       guibg=#2d2d2d
-  hi ColorColumn        guibg=#2d2d2d
-  hi MatchParen         guifg=#f6f3e8 guibg=#857b6f gui=bold
-  hi Pmenu              guifg=#f6f3e8 guibg=#444444
-  hi PmenuSel           guifg=#000000 guibg=#cae682
+  hi CursorLine         guibg=#2D2D2D
+  hi CursorColumn       guibg=#2D2D2D
+  hi ColorColumn        guibg=#2D2D2D
+  hi MatchParen         guifg=#F6F3E8 guibg=#857B6F gui=BOLD
+  hi Pmenu              guifg=#F6F3E8 guibg=#444444
+  hi PmenuSel           guifg=#000000 guibg=#CAE682
 endif
 
 " General colors
-hi Cursor               guifg=NONE    guibg=#656565 gui=none
-hi Normal               guifg=#E0E0E0 guibg=#242424 gui=none
-hi NonText              guifg=#808080 guibg=#242424 gui=none
-hi LineNr               guifg=#857b6f guibg=#242424 gui=none
-hi StatusLine           guifg=#f6f3e8 guibg=#444444 gui=italic
-hi StatusLineNC         guifg=#857b6f guibg=#444444 gui=none
-hi VertSplit            guifg=#444444 guibg=#444444 gui=none
-hi Folded               guibg=#2B2B2B guifg=#a0a8b0 gui=none
-hi Title                guifg=#f6f3e8 guibg=NONE    gui=bold
-hi Visual               guifg=#a0a8b0 guibg=#303030 gui=none
-hi SpecialKey           guifg=#808080 guibg=#343434 gui=none
+hi Cursor               guifg=NONE    guibg=#656565 gui=NONE
+hi Normal               guifg=#E0E0E0 guibg=#242424 gui=NONE
+hi NonText              guifg=#808080 guibg=#242424 gui=NONE
+hi LineNr               guifg=#857B6F guibg=#242424 gui=NONE
+hi StatusLine           guifg=#F6F3E8 guibg=#444444 gui=ITALIC
+hi StatusLineNC         guifg=#857B6F guibg=#444444 gui=NONE
+hi VertSplit            guifg=#444444 guibg=#444444 gui=NONE
+hi Folded               guibg=#2B2B2B guifg=#A0A8B0 gui=NONE
+hi Title                guifg=#F6F3E8 guibg=NONE    gui=BOLD
+hi Visual               guifg=#A0A8B0 guibg=#303030 gui=NONE
+hi SpecialKey           guifg=#808080 guibg=#343434 gui=NONE
 
 " Syntax highlighting
-hi Comment              guifg=#99968b gui=italic
-hi Todo                 guibg=NONE    guifg=#8f8f8f gui=italic,bold
-hi Constant             guifg=#e5786d gui=none
-hi String               guifg=#95e454 gui=italic
-hi Identifier           guifg=#cae682 gui=none
-hi Function             guifg=#cae682 gui=none
-hi Type                 guifg=#cae682 gui=none
-hi Statement            guifg=#8ac6f2 gui=none
-hi Keyword              guifg=#8ac6f2 gui=none
-hi PreProc              guifg=#e5786d gui=none
-hi Number               guifg=#e5786d gui=none
-hi Special              guifg=#e7f6da gui=none
+hi Comment              guifg=#99968B gui=ITALIC
+hi Todo                 guibg=NONE    guifg=#8F8F8F gui=ITALIC,BOLD
+hi Constant             guifg=#E5786D gui=NONE
+hi String               guifg=#95E454 gui=ITALIC
+hi Identifier           guifg=#CAE682 gui=NONE
+hi Function             guifg=#CAE682 gui=NONE
+hi Type                 guifg=#CAE682 gui=NONE
+hi Statement            guifg=#8AC6F2 gui=NONE
+hi Keyword              guifg=#8AC6F2 gui=NONE
+hi PreProc              guifg=#E5786D gui=NONE
+hi Number               guifg=#E5786D gui=NONE
+hi Special              guifg=#E7F6DA gui=NONE
 
 " Python syntax
 hi link pythonCoding    Comment
